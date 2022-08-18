@@ -67,4 +67,32 @@ class AuthController extends Controller
             }
         }
     }
+
+    // Logout
+
+    public function logout(Request $request) {
+
+        // $request->auth()->user()->currentAccessToken()->delete();
+        // $request->auth()->user()->withAccessToken()->delete();
+        $request->user()->token()->revoke();
+
+        return response()->json([
+            'message' => 'Successfully logged out'
+        ], 200);
+    }
+
+    // Show all user in Admin panel
+    public function all_user(Request $request)
+    {
+        $user_list = User::latest()->orderBy('id', 'DESC')->paginate(10);
+        return response()->json($user_list, 200);
+    }
+
+    // Show Only Current user in Admin panel
+    public function current_user(Request $request)
+    {
+        $user_current = auth()->user();
+        // $user = Auth::user();
+        return response()->json($user_current, 200);
+    }
 }

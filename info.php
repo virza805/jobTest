@@ -1,5 +1,7 @@
 <?php
 /*
+=========== >>>> = Backend (php artisan serve) = <<<<============
+
 composer create-project laravel/laravel:^8.0 backendLaravel
 cd backendLaravel
 php artisan serve |=> for run this
@@ -35,8 +37,24 @@ php artisan make:request LoginRequest =>
 php artisan make:model Categories -mc
 php artisan make:model Product -mc
 php artisan migrate || php artisan migrate:fresh --seed
-php artisan make:seeder Categories
-php artisan db:seed =>
+
+
+
+# php artisan make:seeder Categories
+# php artisan db:seed =>
+
+
+
+
+============ >>>> = Frontend (php artisan serve) = <<<<============
+
+
+
+
+
+
+
+
 
 
 
