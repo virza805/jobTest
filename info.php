@@ -40,34 +40,22 @@ php artisan migrate || php artisan migrate:fresh --seed
 
 
 
-# php artisan make:seeder Categories
-# php artisan db:seed =>
-
-
 
 
 ============ >>>> = Frontend || Client Site vueNuxt (npm run dev) = <<<<============
 
-# npm run dev => 
-#  => 24 - Nuxt config and enable sass support | Laranuxt Ninja
-# Markup => https://gist.github.com/kingRayhan/beac5acdeef5bd4ff7f04980d768f436#file-1-readme-md 
 
 # npm init nuxt-app frontend => 
 # cd frontend => 
 # npm run dev => 
 # npm install --save-dev sass sass-loader@10 -D => for scss
-# npm install -D tailwindcss postcss@latest autoprefixer@latest @nuxt/postcss8 => https://tailwindcss.com/docs/guides/nuxtjs
-# npx tailwindcss init => 2. Install Tailwind CSS
-#  => 
-# npm install @nuxtjs/axios => https://axios.nuxtjs.org/setup
-/*
-auth configaration  
+
+====== >>>> auth configaration <<<<=====
 
 npm install --save-exact @nuxtjs/auth-next => https://auth.nuxtjs.org/guide/setup
 npm install @nuxtjs/axios
 
 
-#  => 33 Nuxt Middleware Intro | Laranuxt Ninja
 #  => 
 #  => 
 #  => 

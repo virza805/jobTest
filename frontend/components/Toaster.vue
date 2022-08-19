@@ -2,8 +2,8 @@
   <div
   class="relative p-2 text-center text-yellow-100"
   :class="{
-    ' bg-primaryLink' : type == 'error',
-    ' bg-primaryGreen' : type == 'success',
+    ' bg-danger-500 ' : type == 'error',
+    ' bg-success-600' : type == 'success',
     ' bg-yellow-600' : type == 'warning',
     ' bg-blue-500' : type == 'info',
   }"

@@ -1,5 +1,5 @@
 <template>
-  <button class="flex capitalize but_fr" v-bind="$attrs" @click="$emit('click', $event)">
+  <button class="flex capitalize but_fr bg-success" v-bind="$attrs" @click="$emit('click', $event)">
     <svg
     v-if="loading"
     class="animate-spin mr-2 h-5 w-5 text-white"
@@ -38,4 +38,9 @@ export default {
 //     cursor: not-allowed;
 //   }
 // }
+.but_fr{
+  background:green;
+  padding: 6px 15px;
+  color: yellow;
+}
 </style>
