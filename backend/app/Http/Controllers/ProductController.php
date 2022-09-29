@@ -88,34 +88,34 @@ class ProductController extends Controller
             if (Product::where('status', 1)->where('id', $key)->exists()) {
                 $product_data = Product::where('status', 1)
                     ->orderBy('id', 'DESC')
-                    ->where('id', $key)->paginate(8);
+                    ->where('id', $key)->paginate(4);
             } else if (Product::where('status', 1)->where('name', $key)->exists()) {
                 $product_data = Product::where('status', 1)
                     ->orderBy('id', 'DESC')
-                    ->where('name', $key)->paginate(8);
+                    ->where('name', $key)->paginate(4);
             } else if (Product::where('status', 1)->where('description', $key)->exists()) {
                 $product_data = Product::where('status', 1)
                     ->orderBy('id', 'DESC')
-                    ->where('description', $key)->paginate(8);
+                    ->where('description', $key)->paginate(4);
             } else if (Product::where('status', 1)->where('name', 'LIKE', '%' . $key . '%')->exists()) {
                 $product_data = Product::where('status', 1)
                     ->where('name', 'LIKE', '%' . $key . '%')
                     ->orderBy('id', 'DESC')
-                    ->paginate(8);
+                    ->paginate(4);
             } else if (Product::where('status', 1)->where('description', 'LIKE', '%' . $key . '%')->exists()) {
                 $product_data = Product::where('status', 1)
                     ->where('description', 'LIKE', '%' . $key . '%')
                     ->orderBy('id', 'DESC')
-                    ->paginate(8);
+                    ->paginate(4);
             }
             else {
                 $product_data = Product::where('status', 1)
                     ->where('section', 'LIKE', '%' . $key . '%')
                     ->orderBy('id', 'DESC')
-                    ->paginate(8);
+                    ->paginate(4);
             }
         }else{
-            $product_data = Product::where('status', 1)->orderBy('id', 'DESC')->paginate(8);
+            $product_data = Product::where('status', 1)->orderBy('id', 'DESC')->paginate(4);
         }
 
         // $stock = 1;

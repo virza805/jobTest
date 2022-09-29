@@ -3,7 +3,7 @@
   class="relative p-2 text-center text-yellow-100"
   :class="{
     ' bg-danger-500 ' : type == 'error',
-    ' bg-success-600' : type == 'success',
+    ' bg-green-600' : type == 'success',
     ' bg-yellow-600' : type == 'warning',
     ' bg-blue-500' : type == 'info',
   }"

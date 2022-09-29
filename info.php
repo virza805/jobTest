@@ -56,7 +56,7 @@ npm install --save-exact @nuxtjs/auth-next => https://auth.nuxtjs.org/guide/setu
 npm install @nuxtjs/axios
 
 
-#  => 
+# npm install --save vue-pagination-2 => 
 #  => 
 #  => 
 #  => 

@@ -1,5 +1,5 @@
 <template >
-  <div class="flex justify-content-around ">
+  <div class="navbar">
     <div class="left">
       <ul class="flex justify-content-start">
             <li>
@@ -14,13 +14,13 @@
           </ul>
     </div>
     <h2>Frontend Header</h2>
-    <div class="right flex">
+    <div class="right flex justify-content-end">
       <nuxt-link to="/auth/register"
             class=" hidden bs-icon-box rounded-full hover:bg-gray-200  md:flex items-center justify-center"><img
-              src="~/assets/img/user.png" alt=""></nuxt-link>
+              src="~/assets/img/user.png" ></nuxt-link>
           <NuxtLink to="/auth/login"
             class="bs-icon-box rounded-full hover:bg-gray-200 flex items-center justify-center"><img
-              src="~/assets/img/log-in.svg" alt=""></NuxtLink>
+              src="~/assets/img/log-in.svg"  ></NuxtLink>
     </div>
   </div>
 </template>
@@ -30,6 +30,12 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
 
 </style>
