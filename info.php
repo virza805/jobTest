@@ -39,7 +39,7 @@ php artisan make:model Product -mc
 php artisan migrate || php artisan migrate:fresh --seed
 
 
-
+https://mailtrap.io/inboxes |=> for send email check smtp server
 
 
 ============ >>>> = Frontend || Client Site vueNuxt (npm run dev) = <<<<============
