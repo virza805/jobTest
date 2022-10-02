@@ -7,18 +7,11 @@
 # npm init nuxt-app staff => 
 # cd staff => 
 # npm run dev => 
-# npm install --save-dev sass sass-loader@10 -D => for scss
-
-====== >>>> auth configaration <<<<=====
-
-npm install --save-exact @nuxtjs/auth-next => https://auth.nuxtjs.org/guide/setup
-npm install @nuxtjs/axios
-
-
-# npm install --save vue-pagination-2 => 
+# npm install --save-dev sass sass-loader@10 |=> for sass install https://nuxtjs.org/pt/docs/configuration-glossary/configuration-css#a-propriedade-css
+npm install -D tailwindcss postcss@latest autoprefixer@latest @nuxt/postcss8 npx tailwindcss init |=> https://tailwindcss.com/docs/guides/nuxtjs
 #  => 
-#  => 
-#  => 
+# npm install sweetalert2 => 
+# npm install dayjs => 
 #  => 
 #  => 
 #  => 
