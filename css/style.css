@@ -1,3 +1,7 @@
+.main_bg {
+    background-color: #F5F5F5;
+}
+
 .has-search .form-control {
     padding-left: 2.375rem;
 }
@@ -12,4 +16,119 @@
     text-align: center;
     pointer-events: none;
     color: #aaa;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #444;
+}
+
+.main {
+    border: 2px solid #d3d3d3;
+    border-radius: 3px;
+}
+
+h4 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.auth_info {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.auth_info .auth_logo p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.auth_info .auth_logo {
+    padding: 4px;
+}
+
+ul.left_side_menu {
+    margin: 30px 0;
+}
+
+ul.left_side_menu a {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul.left_side_menu a img {
+    padding-right: 6px;
+}
+
+.main .col-md-2 {
+    margin: 0;
+    padding: 0;
+}
+
+ul.left_side_menu li {
+    /* background: red; */
+    padding: 4px;
+    padding-left: 12px;
+    margin: 14px 0;
+}
+
+ul.left_side_menu li:hover {
+    border-left: 4px solid #0066ff;
+    background: #F5F5F5;
+}
+
+ul.left_side_menu li:hover a {
+    color: #000;
+    text-decoration: none;
+}
+
+.manage_info {
+    margin: 20px;
+}
+
+.manage_info img.logo_main {
+    margin-bottom: 25px;
+}
+
+.form-group.has-search.search_form {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.main_nave_left {
+    display: flex;
+    align-content: center;
+    margin: 10px 0;
+}
+
+.main_nave_left .form-group.has-search.search_form {
+    margin-left: 14px;
+}
+
+.row.bg_wight {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+ul.bratcom {
+    display: flex;
+    margin: 20px 0;
+}
+
+ul.bratcom li {
+    margin: 8px;
 }
