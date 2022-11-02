@@ -70,6 +70,8 @@ npm install @nuxtjs/axios
 #  => 
 
 
+ node -v
+v16.13.0
 
 
 
